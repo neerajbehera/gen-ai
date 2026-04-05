@@ -59,6 +59,18 @@ noxfile.py
 *.sql
 *.sqlite
 *.db
+logs/
+**/logs/
+
+# Output, results, temporary data
+output/
+**/output/
+results/
+**/results/
+sql_to_json/
+**/sql_to_json/
+chroma_db/
+**/chroma_db/
 
 # Environment variables
 .env
@@ -111,3 +123,5 @@ Desktop.ini
 secrets/
 credentials/
 *.secret
+
+wandb/
